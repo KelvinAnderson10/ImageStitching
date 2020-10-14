@@ -5,8 +5,8 @@ import matplotlib.pyplot as plt
 
 
 # Read the images that we want to stitch together to create a panorama
-img_right = cv2.imread('img_right.jpg')
-img_left = cv2.imread('img_left.jpg')
+img_right = cv2.imread('input_image_right.jpg')
+img_left = cv2.imread('input_image_left.jpg')
 
 
 # Display the left and right images
